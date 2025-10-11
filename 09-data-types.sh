@@ -8,3 +8,8 @@ NUMBER=200
 SUM=$(($NUMBER+$NUMBER1))
 
 echo "SUM is : ${SUM}"
+
+LEADERS=("Modi" "Trump" "Putin")
+
+echo "All leaders: ${LEADERS[@]}"
+echo "First leader: ${LEADERS[0]}"
